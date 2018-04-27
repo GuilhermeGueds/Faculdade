@@ -1,0 +1,62 @@
+3
+pequeno
+6
+medio
+8
+grande
+12
+5
+ALHO E OLEO
+5
+Molho
+Mussarela
+Alho frito no Azeite
+Parmesão
+Azeitonas
+16.00
+18.00
+20.00
+QUATRO QUEIJOS
+7
+Molho
+Mussarela
+Provolone
+Gorgonzola
+Catupiry
+Azeitona preta
+Oregano
+20.00
+22.00
+24.00
+MARGUERITA
+7
+Molho
+Mussarela
+Tomate
+Parmesao
+Manjericao
+Alho
+Azeitona preta
+16.00
+18.00
+20.00
+CHAMPIGNON
+5
+Champignon salpicado
+Parmesao
+Oregano
+Bacon Dourado
+Azeitona
+18.00
+20.00
+22.00
+BANANA
+5
+Banana
+Acucar
+Mel Karo
+Conhaque
+Canela
+18.00
+20.00
+22.00

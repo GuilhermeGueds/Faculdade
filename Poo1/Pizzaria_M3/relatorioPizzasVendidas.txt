@@ -1,0 +1,18 @@
+
+                       Relatorio Pizzas Vendidas
+
+    Nome: ALHO E OLEO
+    Ingredientes: (Molho, Mussarela, Alho frito no Azeite, Parmesão, Azeitonas, )
+    Quantidade De Vendas : 2
+
+    Nome: QUATRO QUEIJOS
+    Ingredientes: (Molho, Mussarela, Provolone, Gorgonzola, Catupiry, Azeitona preta, Oregano, )
+    Quantidade De Vendas : 1
+
+    Nome: MARGUERITA
+    Ingredientes: (Molho, Mussarela, Tomate, Parmesao, Manjericao, Alho, Azeitona preta, )
+    Quantidade De Vendas : 1
+
+    Nome: CHAMPIGNON
+    Ingredientes: (Champignon salpicado, Parmesao, Oregano, Bacon Dourado, Azeitona, )
+    Quantidade De Vendas : 3

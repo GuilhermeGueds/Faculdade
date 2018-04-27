@@ -1,0 +1,98 @@
+
+                       Relatorio De Pedidos Confirmados 
+                       -------------------------------- 
+    Numero Pedido: 1
+
+    Cliente: Guilherme
+    Telefone: 999949481
+    CPF: 6770699958
+    Endereco: Frei Henrique Coimbra,182
+
+    Quantidade de itens: 2
+
+    Pizza: ALHO E OLEO
+    Ingredientes: (Molho, Mussarela, Alho frito no Azeite, Parmesão, Azeitonas, )
+    Tamanho pequeno
+    Valor: 16.00
+
+    Pizza: CHAMPIGNON
+    Ingredientes: (Champignon salpicado, Parmesao, Oregano, Bacon Dourado, Azeitona, )
+    Tamanho medio
+    Valor: 20.00
+
+
+    Status do Pedido: Confirmado
+
+    Total: 36.00
+
+---------------------------------------------------------------------------------------------------------
+    Numero Pedido: 2
+
+    Cliente: Daniel
+    Telefone: 999206465
+    CPF: 9637980570
+    Endereco: Hermógenes Prazeres,11
+
+    Quantidade de itens: 3
+
+    Pizza: QUATRO QUEIJOS
+    Ingredientes: (Molho, Mussarela, Provolone, Gorgonzola, Catupiry, Azeitona preta, Oregano, )
+    Tamanho pequeno
+    Valor: 20.00
+
+    Pizza: ALHO E OLEO
+    Ingredientes: (Molho, Mussarela, Alho frito no Azeite, Parmesão, Azeitonas, )
+    Tamanho medio
+    Valor: 18.00
+
+    Pizza: CHAMPIGNON
+    Ingredientes: (Champignon salpicado, Parmesao, Oregano, Bacon Dourado, Azeitona, )
+    Tamanho grande
+    Valor: 22.00
+
+
+    Status do Pedido: Confirmado
+
+    Total: 60.00
+
+---------------------------------------------------------------------------------------------------------
+    Numero Pedido: 3
+
+    Cliente: Joao
+    Telefone: 999874563
+    CPF: 6985214555
+    Endereco: Felipe Schmidt,264
+
+    Quantidade de itens: 1
+
+    Pizza: MARGUERITA
+    Ingredientes: (Molho, Mussarela, Tomate, Parmesao, Manjericao, Alho, Azeitona preta, )
+    Tamanho pequeno
+    Valor: 16.00
+
+
+    Status do Pedido: Confirmado
+
+    Total: 16.00
+
+---------------------------------------------------------------------------------------------------------
+    Numero Pedido: 4
+
+    Cliente: Chico
+    Telefone: 984235478
+    CPF: 69752680562
+    Endereco: Vidal Ramos,84
+
+    Quantidade de itens: 1
+
+    Pizza: CHAMPIGNON
+    Ingredientes: (Champignon salpicado, Parmesao, Oregano, Bacon Dourado, Azeitona, )
+    Tamanho pequeno
+    Valor: 18.00
+
+
+    Status do Pedido: Confirmado
+
+    Total: 18.00
+
+---------------------------------------------------------------------------------------------------------

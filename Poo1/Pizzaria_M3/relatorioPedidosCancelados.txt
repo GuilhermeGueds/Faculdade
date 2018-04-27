@@ -1,0 +1,21 @@
+
+                       Relatorio De Pedidos Cancelados 
+                       -------------------------------- 
+    Numero Pedido: 1
+
+    Cliente: Marcelo
+    Telefone: 32145689
+    CPF: 15325446610
+    Endereco: Tenente Silveira,46
+
+    Quantidade de itens: 1
+
+    Pizza: BANANA
+    Ingredientes: (Banana, Acucar, Mel Karo, Conhaque, Canela, )
+    Tamanho pequeno
+    Valor: 18.00
+
+
+    Status do Pedido: Cancelado
+
+---------------------------------------------------------------------------------------------------------

@@ -1,0 +1,22 @@
+
+                                Menu
+
+    1. ALHO E OLEO
+   (Molho,Mussarela,Alho frito no Azeite,Parmesão,Azeitonas,)
+    pequeno R$ 16.00,    medio R$ 18.00,    grande R$ 20.00,
+
+    2. QUATRO QUEIJOS
+   (Molho,Mussarela,Provolone,Gorgonzola,Catupiry,Azeitona preta,Oregano,)
+    pequeno R$ 20.00,    medio R$ 22.00,    grande R$ 24.00,
+
+    3. MARGUERITA
+   (Molho,Mussarela,Tomate,Parmesao,Manjericao,Alho,Azeitona preta,)
+    pequeno R$ 16.00,    medio R$ 18.00,    grande R$ 20.00,
+
+    4. CHAMPIGNON
+   (Champignon salpicado,Parmesao,Oregano,Bacon Dourado,Azeitona,)
+    pequeno R$ 18.00,    medio R$ 20.00,    grande R$ 22.00,
+
+    5. BANANA
+   (Banana,Acucar,Mel Karo,Conhaque,Canela,)
+    pequeno R$ 18.00,    medio R$ 20.00,    grande R$ 22.00,

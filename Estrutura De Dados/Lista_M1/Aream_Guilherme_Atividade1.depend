@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1505174833 source:c:\users\guilh\desktop\aream_guilherme_atividade1\lista.cpp
+	<iostream>
+	"lista.h"
+
+1505019433 c:\users\guilh\desktop\aream_guilherme_atividade1\lista.h
+	"Tela.h"
+
+1505077494 c:\users\guilh\desktop\aream_guilherme_atividade1\tela.h
+	<windows.h>
+	<string>
+	<iostream>
+	<time.h>
+	<unistd.h>
+	<stddef.h>
+	"lista.h"
+
+1505079392 source:c:\users\guilh\desktop\aream_guilherme_atividade1\main.cpp
+	<iostream>
+	"lista.h"
+
+1505079015 source:c:\users\guilh\desktop\aream_guilherme_atividade1\tela.cpp
+	"Tela.h"
+

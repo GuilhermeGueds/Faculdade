@@ -1,0 +1,83 @@
+# depslib dependency file v1.0
+1507696992 source:c:\users\guilh\desktop\estrutura_m2_aream_guilherme_parte1\main.cpp
+	<iostream>
+	"FilaEstatica.h"
+
+1507697134 source:c:\users\guilh\desktop\estrutura_m2_aream_guilherme_parte1\filaestatica.cpp
+	<iostream>
+	"FilaEstatica.h"
+
+1507697233 c:\users\guilh\desktop\estrutura_m2_aream_guilherme_parte1\filaestatica.h
+
+1507780370 source:c:\users\guilh\desktop\aream-guilherme\estrutura_m2_aream_guilherme_parte1\filaestatica.cpp
+	<iostream>
+	"FilaEstatica.h"
+
+1507697233 c:\users\guilh\desktop\aream-guilherme\estrutura_m2_aream_guilherme_parte1\filaestatica.h
+
+1507782001 source:c:\users\guilh\desktop\aream-guilherme\estrutura_m2_aream_guilherme_parte1\main.cpp
+	<iostream>
+	"FilaEstatica.h"
+	"Tela.h"
+
+1507781442 source:c:\users\guilh\desktop\aream-guilherme\estrutura_m2_aream_guilherme_parte1\tela.cpp
+	"Tela.h"
+	<ctype.h>
+
+1507780486 c:\users\guilh\desktop\aream-guilherme\estrutura_m2_aream_guilherme_parte1\tela.h
+	<windows.h>
+	<string>
+	<iostream>
+	<time.h>
+	<unistd.h>
+	<stddef.h>
+	"FilaEstatica.h"
+
+1508083221 source:c:\users\lucas\desktop\faculdade\4º semestre\estrutura de  dados\codes\fila\aream-guilherme\aream-guilherme\estrutura_m2_aream_guilherme_parte1\filaestatica.cpp
+	<iostream>
+	"FilaEstatica.h"
+
+1507697233 c:\users\lucas\desktop\faculdade\4º semestre\estrutura de  dados\codes\fila\aream-guilherme\aream-guilherme\estrutura_m2_aream_guilherme_parte1\filaestatica.h
+
+1508082946 source:c:\users\lucas\desktop\faculdade\4º semestre\estrutura de  dados\codes\fila\aream-guilherme\aream-guilherme\estrutura_m2_aream_guilherme_parte1\main.cpp
+	<iostream>
+	"FilaEstatica.h"
+	"Tela.h"
+
+1508083545 c:\users\lucas\desktop\faculdade\4º semestre\estrutura de  dados\codes\fila\aream-guilherme\aream-guilherme\estrutura_m2_aream_guilherme_parte1\tela.h
+	<windows.h>
+	<string>
+	<iostream>
+	<time.h>
+	<unistd.h>
+	<stddef.h>
+	"FilaEstatica.h"
+
+1508083545 source:c:\users\lucas\desktop\faculdade\4º semestre\estrutura de  dados\codes\fila\aream-guilherme\aream-guilherme\estrutura_m2_aream_guilherme_parte1\tela.cpp
+	"Tela.h"
+	<ctype.h>
+
+1508285991 source:c:\users\guilh\desktop\aream-guilherme\aream-guilherme\estrutura_m2_aream_guilherme_parte1\main.cpp
+	<iostream>
+	"FilaEstatica.h"
+	"Tela.h"
+
+1507697233 c:\users\guilh\desktop\aream-guilherme\aream-guilherme\estrutura_m2_aream_guilherme_parte1\filaestatica.h
+
+1508083545 c:\users\guilh\desktop\aream-guilherme\aream-guilherme\estrutura_m2_aream_guilherme_parte1\tela.h
+	<windows.h>
+	<string>
+	<iostream>
+	<time.h>
+	<unistd.h>
+	<stddef.h>
+	"FilaEstatica.h"
+
+1508285750 source:c:\users\guilh\desktop\aream-guilherme\aream-guilherme\estrutura_m2_aream_guilherme_parte1\tela.cpp
+	"Tela.h"
+	<ctype.h>
+
+1508285720 source:c:\users\guilh\desktop\aream-guilherme\aream-guilherme\estrutura_m2_aream_guilherme_parte1\filaestatica.cpp
+	<iostream>
+	"FilaEstatica.h"
+

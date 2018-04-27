@@ -1,0 +1,87 @@
+# depslib dependency file v1.0
+1504758585 source:c:\users\guilh\desktop\aream_guiherme_blackjack\carta.cpp
+	"Carta.h"
+
+1504764523 c:\users\guilh\desktop\aream_guiherme_blackjack\carta.h
+	"Nipe.h"
+
+1505186890 source:c:\users\guilh\desktop\aream_guiherme_blackjack\lista.cpp
+	"Lista.h"
+	"Nodo.cpp"
+
+1504927049 source:c:\users\guilh\desktop\aream_guiherme_blackjack\nodo.cpp
+	"Nodo.h"
+
+1504755667 c:\users\guilh\desktop\aream_guiherme_blackjack\nipe.cpp
+
+1505174833 source:c:\users\guilh\desktop\aream_guiherme_blackjack\main.cpp
+	<iostream>
+	"Game.h"
+	"Lista.h"
+
+1504758626 source:c:\users\guilh\desktop\aream_guiherme_blackjack\nipe.cpp
+
+1504926198 c:\users\guilh\desktop\aream_guiherme_blackjack\lista.h
+	<iostream>
+	"Nodo.h"
+
+1504919576 c:\users\guilh\desktop\aream_guiherme_blackjack\nodo.h
+	<stddef.h>
+
+1504927049 c:\users\guilh\desktop\aream_guiherme_blackjack\nodo.cpp
+	"Nodo.h"
+
+1504758496 c:\users\guilh\desktop\aream_guiherme_blackjack\nipe.h
+
+1505188388 source:c:\users\guilh\desktop\aream_guiherme_blackjack\baralho.cpp
+	"Baralho.h"
+	<stdlib.h>
+	<time.h>
+
+1505188388 c:\users\guilh\desktop\aream_guiherme_blackjack\baralho.h
+	"lista.cpp"
+	<stdlib.h>
+	<time.h>
+
+1505278157 source:c:\users\guilh\desktop\aream_guiherme_blackjack\game.cpp
+	<iostream>
+	"Game.h"
+
+1505278157 c:\users\guilh\desktop\aream_guiherme_blackjack\game.h
+	<iostream>
+	"Baralho.h"
+	"Jogador.h"
+	"tela.h"
+	<stddef.h>
+
+1505278157 c:\users\guilh\desktop\aream_guiherme_blackjack\jogador.h
+	<iostream>
+	"Lista.h"
+	<stdlib.h>
+
+1505276314 source:c:\users\guilh\desktop\aream_guiherme_blackjack\jogador.cpp
+	"Jogador.h"
+	<iostream>
+	<stdlib.h>
+
+1505274492 c:\users\guilh\desktop\aream_guiherme_blackjack\tela.h
+	<windows.h>
+	<string>
+	<iostream>
+	<time.h>
+	<unistd.h>
+	"Jogador.h"
+	"Baralho.h"
+
+1505274542 source:c:\users\guilh\desktop\aream_guiherme_blackjack\tela.cpp
+	"Tela.h"
+
+1505186890 c:\users\guilh\desktop\aream_guiherme_blackjack\lista.cpp
+	"Lista.h"
+	"Nodo.cpp"
+
+1504926911 c:\users\guilh\desktop\aream_guiherme_blackjack\jogador.cpp
+	"Jogador.h"
+	<iostream>
+	<stdlib.h>
+

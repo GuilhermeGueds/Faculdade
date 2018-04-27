@@ -1,0 +1,156 @@
+# depslib dependency file v1.0
+1507469253 source:c:\users\lucas\desktop\faculdade\4º semestre\estrutura de  dados\codes\fila\estrutura_m2_aream_guilherme_parte2\lista.cpp
+	"Lista.h"
+	"Nodo.cpp"
+
+1507468636 c:\users\lucas\desktop\faculdade\4º semestre\estrutura de  dados\codes\fila\estrutura_m2_aream_guilherme_parte2\lista.h
+	<iostream>
+	"Nodo.h"
+
+1507414814 c:\users\lucas\desktop\faculdade\4º semestre\estrutura de  dados\codes\fila\estrutura_m2_aream_guilherme_parte2\nodo.h
+	<stddef.h>
+
+1507414690 c:\users\lucas\desktop\faculdade\4º semestre\estrutura de  dados\codes\fila\estrutura_m2_aream_guilherme_parte2\nodo.cpp
+	"Nodo.h"
+
+1507414690 source:c:\users\lucas\desktop\faculdade\4º semestre\estrutura de  dados\codes\fila\estrutura_m2_aream_guilherme_parte2\nodo.cpp
+	"Nodo.h"
+
+1507469839 source:c:\users\lucas\desktop\faculdade\4º semestre\estrutura de  dados\codes\fila\estrutura_m2_aream_guilherme_parte2\filaprioridade.cpp
+	"filaprioridade.h"
+	"Lista.h"
+
+1507469253 c:\users\lucas\desktop\faculdade\4º semestre\estrutura de  dados\codes\fila\estrutura_m2_aream_guilherme_parte2\filaprioridade.h
+	<iostream>
+	<string>
+	"Lista.h"
+	"Lista.cpp"
+
+1507469616 source:c:\users\lucas\desktop\faculdade\4º semestre\estrutura de  dados\codes\fila\estrutura_m2_aream_guilherme_parte2\main.cpp
+	<iostream>
+	"filaprioridade.h"
+	"Tela.h"
+
+1507418563 c:\users\lucas\desktop\faculdade\4º semestre\estrutura de  dados\codes\fila\estrutura_m2_aream_guilherme_parte2\tela.h
+	<windows.h>
+	<string>
+	<iostream>
+	<time.h>
+	<unistd.h>
+	<stddef.h>
+	"lista.h"
+
+1507468429 source:c:\users\lucas\desktop\faculdade\4º semestre\estrutura de  dados\codes\fila\estrutura_m2_aream_guilherme_parte2\tela.cpp
+	"Tela.h"
+	<ctype.h>
+
+1507471205 c:\users\lucas\desktop\faculdade\4º semestre\estrutura de  dados\codes\fila\estrutura_m2_aream_guilherme_parte2\lista.cpp
+	"Lista.h"
+	"Nodo.cpp"
+
+1507494411 source:c:\users\guilh\desktop\estrutura_m2_aream_guilherme_parte2\filaprioridade.cpp
+	"filaprioridade.h"
+	"Lista.h"
+
+1507696605 c:\users\guilh\desktop\estrutura_m2_aream_guilherme_parte2\filaprioridade.h
+	<iostream>
+	<string>
+	"Lista.h"
+	"Lista.cpp"
+
+1507475331 c:\users\guilh\desktop\estrutura_m2_aream_guilherme_parte2\lista.h
+	<iostream>
+	"Nodo.h"
+
+1507414814 c:\users\guilh\desktop\estrutura_m2_aream_guilherme_parte2\nodo.h
+	<stddef.h>
+
+1507492503 c:\users\guilh\desktop\estrutura_m2_aream_guilherme_parte2\lista.cpp
+	"Lista.h"
+	"Nodo.cpp"
+
+1507414690 c:\users\guilh\desktop\estrutura_m2_aream_guilherme_parte2\nodo.cpp
+	"Nodo.h"
+
+1507492503 source:c:\users\guilh\desktop\estrutura_m2_aream_guilherme_parte2\lista.cpp
+	"Lista.h"
+	"Nodo.cpp"
+
+1507677320 source:c:\users\guilh\desktop\estrutura_m2_aream_guilherme_parte2\main.cpp
+	<iostream>
+	"filaprioridade.cpp"
+	"Tela.h"
+
+1507495679 c:\users\guilh\desktop\estrutura_m2_aream_guilherme_parte2\tela.h
+	<windows.h>
+	<string>
+	<iostream>
+	<time.h>
+	<unistd.h>
+	<stddef.h>
+	"lista.h"
+
+1507414690 source:c:\users\guilh\desktop\estrutura_m2_aream_guilherme_parte2\nodo.cpp
+	"Nodo.h"
+
+1507501345 source:c:\users\guilh\desktop\estrutura_m2_aream_guilherme_parte2\tela.cpp
+	"Tela.h"
+	<ctype.h>
+
+1507494411 c:\users\guilh\desktop\estrutura_m2_aream_guilherme_parte2\filaprioridade.cpp
+	"filaprioridade.h"
+	"Lista.h"
+
+1507494411 source:c:\users\guilh\desktop\aream-guilherme\estrutura_m2_aream_guilherme_parte2\filaprioridade.cpp
+	"filaprioridade.h"
+	"Lista.h"
+
+1507696605 c:\users\guilh\desktop\aream-guilherme\estrutura_m2_aream_guilherme_parte2\filaprioridade.h
+	<iostream>
+	<string>
+	"Lista.h"
+	"Lista.cpp"
+
+1507475331 c:\users\guilh\desktop\aream-guilherme\estrutura_m2_aream_guilherme_parte2\lista.h
+	<iostream>
+	"Nodo.h"
+
+1507414814 c:\users\guilh\desktop\aream-guilherme\estrutura_m2_aream_guilherme_parte2\nodo.h
+	<stddef.h>
+
+1507492503 c:\users\guilh\desktop\aream-guilherme\estrutura_m2_aream_guilherme_parte2\lista.cpp
+	"Lista.h"
+	"Nodo.cpp"
+
+1507414690 c:\users\guilh\desktop\aream-guilherme\estrutura_m2_aream_guilherme_parte2\nodo.cpp
+	"Nodo.h"
+
+1507492503 source:c:\users\guilh\desktop\aream-guilherme\estrutura_m2_aream_guilherme_parte2\lista.cpp
+	"Lista.h"
+	"Nodo.cpp"
+
+1507779685 source:c:\users\guilh\desktop\aream-guilherme\estrutura_m2_aream_guilherme_parte2\main.cpp
+	<iostream>
+	"filaprioridade.cpp"
+	"Tela.h"
+
+1507494411 c:\users\guilh\desktop\aream-guilherme\estrutura_m2_aream_guilherme_parte2\filaprioridade.cpp
+	"filaprioridade.h"
+	"Lista.h"
+
+1507495679 c:\users\guilh\desktop\aream-guilherme\estrutura_m2_aream_guilherme_parte2\tela.h
+	<windows.h>
+	<string>
+	<iostream>
+	<time.h>
+	<unistd.h>
+	<stddef.h>
+	"lista.h"
+
+1507414690 source:c:\users\guilh\desktop\aream-guilherme\estrutura_m2_aream_guilherme_parte2\nodo.cpp
+	"Nodo.h"
+
+1507501345 source:c:\users\guilh\desktop\aream-guilherme\estrutura_m2_aream_guilherme_parte2\tela.cpp
+	"Tela.h"
+	<ctype.h>
+

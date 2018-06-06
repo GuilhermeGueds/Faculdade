@@ -1,0 +1,13 @@
+% Autor:  GUilherme Guedes
+% Data: 16/03/2018
+
+
+comprou(joao,honda).
+ano(honda,2014).
+comprou(joao,uno).
+ano(uno,2015).
+valor(honda,20000).
+valor(uno,7000).
+ano_atual(2018).
+
+pode_vender(X,Y,Z):- comprou(X,Y),ano(Y,Z),valor(Y,L) ano_atual(N),N - Z < 10 .

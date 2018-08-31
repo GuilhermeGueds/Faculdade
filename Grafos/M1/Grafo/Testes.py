@@ -1,36 +1,16 @@
+from Grafo import Grafo
+grafo = {'a': {'b': 5, 'c': 4}, 'b': {'a': 5, 'c': 6, 'd': 8}, 'c': {'b': 6, 'd': 4}, 'd': {'b':8,'c':4} }
 
+x = Grafo()
 
-'''x = []
-i=0
-x.append('a')
-x.append('b')
-x.append('c')
-#print(x.__contains__())
-#print (x[x.index('b')])
+x.inserirVertice('a')
+x.inserirVertice('b')
+x.inserirVertice('c')
+x.inserirVertice('d')
 
-z =len(x)
-for i in range(z):
-    print(x[i])'''
+x.inseririAresta('a','b',5)
+x.inseririAresta('a','c',4)
+x.inseririAresta('b','c',5)
+x.inseririAresta('b','d',5)
 
-'''x = []
-
-
-x.append({0:'a',1:'b',2:100})
-x.append({0:'a',1:'b','peso':1000})
-
-x.pop(0)
-print(x)'''
-
-class Teste():
-    __x= ''
-
-    def print(self, kk):
-        self.__x = kk
-        print(self.__x)
-
-
-x = Teste()
-x.print("xxxxx")
-
-del x
-print(type(x))
+print(x.montarLista())

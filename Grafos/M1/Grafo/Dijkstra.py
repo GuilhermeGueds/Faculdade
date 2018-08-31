@@ -1,7 +1,7 @@
 '''grafo = {'a': {'b': 5, 'c': 4}, 'b': {'a': 5, 'c': 6, 'd': 8, 'f': 11}, 'c': {'b': 6, 'd': 4, 'e': 15},
          'd': {'b':8,'c':4, 'e': 15, 'f':7, 'g':12, }, 'e': {'c':15,'d': 15, 'g':15,}, 'f' : {'b':11, 'd':8, 'g':3}, 'g' : {'d':12, 'e':15, 'f':3}}'''
 grafo = {'a': {'b': 5, 'c': 4}, 'b': {'a': 5, 'c': 6, 'd': 8}, 'c': {'b': 6, 'd': 4}, 'd': {'b':8,'c':4} }
-print (grafo)
+
 def dijkstra(grafo, inicio, fim):
     caminho_mais_curto = {}
     predecessor = {}
@@ -39,6 +39,6 @@ def dijkstra(grafo, inicio, fim):
     if caminho_mais_curto[fim] != infinito:
         print('Menor distancia é:  ' + str(caminho_mais_curto[fim]))
         print('Caminho percorrido:  ' + str(caminho))
-
+        print(caminho)
 
 dijkstra(grafo, 'a', 'd')

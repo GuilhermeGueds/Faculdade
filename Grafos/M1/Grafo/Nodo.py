@@ -50,6 +50,11 @@ class Nodo():
         for i in range(len(self.__adjacentes)):
             print( "[", self.getAdjacentes(i,0), "-", self.getAdjacentes(i,1),"]","",end="")
 
+    def pegarListaDeAdjacentes(self):
+        lista = {}
+        for i in range(len(self.__adjacentes)):
+            lista[ self.getAdjacentes(i, 0)] = self.getAdjacentes(i, 1)
+        return lista
 
 '''a = Nodo('A')
 b = Nodo('B')
@@ -59,12 +64,12 @@ e = Nodo('E')
 f = Nodo('F')
 
 
-a.setAdjacentes(b,10)
-a.setAdjacentes(c,20)
+a.setAdjacentes('B',10)
+a.setAdjacentes('C',20)
 
-#a.mostrarTodosAdjacentes()
+a.mostrarTodosAdjacentes()
 
-a.removeAdjacentes(c,20)
+print("\n",a.pegarListaDeAdjacentes())
 
 print("")
 #print(b.quantidadeDeadjacentes())

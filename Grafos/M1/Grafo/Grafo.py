@@ -1,59 +1,55 @@
 from Nodo import Nodo
-import networkx as nx
-import matplotlib.pyplot as plt
+from BFS_Largura import dijkstra
 from graphviz import Graph
 
 class Grafo():
 
     __vertice = []
     __aresta = []
-    __grafico = nx.Graph()
-
-    def __init__(self):
-        plt.rcParams['figure.figsize'] = (19.20, 10.5)
-        plt.title('Histograma')  # adicionando o título
 
 
     '''============================================  Vertices  ========================================================='''
 
     '''Insere vertice no grafo '''
+
     def inserirVertice(self, nodo):
         if not self.existeVertice(nodo):
             self.__vertice.append(Nodo(nodo))
         else:
             print("ja existe")
 
-    def removerVertice(self,nodo):
+    def removerVertice(self, nodo):
         x = self.pegaVertice(nodo)
         if self.existeVertice(nodo):
             self.__removerArestas(nodo)  # Remove todas as arestas que contem o elemento
-            x.removeVertice()            # Deveria apagar todas as referencias do elemento
+            x.removeVertice()  # Deveria apagar todas as referencias do elemento
             self.removeVerticeDoGrafico(nodo)
             self.__vertice.pop(self.pegaPosicaoVertice(nodo))  # apaga o vertice da lista de vertice
 
-
     '''Pega a posição que o vertice se encontra na lista'''
+
     def pegaPosicaoVertice(self, nodo):
         if self.existeVertice(nodo):
             for i in range(len(self.__vertice)):
-                if(nodo.upper() ==  self.__vertice[i].getVertice()):
+                if (nodo.upper() == self.__vertice[i].getVertice()):
                     return i
 
-
     ''' Pega endereço de memoria de uma vertice do grafo'''
+
     def pegaVertice(self, nodo):
         if self.existeVertice(nodo):
             for i in range(len(self.__vertice)):
-                if(nodo.upper() ==  self.__vertice[i].getVertice()):
-                    return self.__vertice[i]#.getVertice()
+                if (nodo.upper() == self.__vertice[i].getVertice()):
+                    return self.__vertice[i]  # .getVertice()
 
     ''' Pega endereço de memoria de uma vertice do grafo'''
+
     def pegaElementoVertice(self, posicao):
         for i in range(len(self.__vertice)):
             return self.__vertice[posicao].getVertice()
 
-
     '''Verifica se a vertice existe'''
+
     def existeVertice(self, nodo):
         valida = False
         for i in range(len(self.__vertice)):
@@ -61,9 +57,10 @@ class Grafo():
                 valida = True
                 return True
         if valida == False:
-           return False
+            return False
 
     '''Mostra todos os vertices do grafo'''
+
     def mostrarTodosOsVertices(self):
         for i in range(len(self.__vertice)):
             print(self.__vertice[i].getVertice())
@@ -188,7 +185,35 @@ class Grafo():
         dot.view()
 
 
-'''grafo = Grafo()
+    def montarLista(self):
+        lista = {}
+        for i in range(self.quantidadeDeVertice()):
+            lista[self.__vertice[i].getVertice()] = self.__vertice[i].pegarListaDeAdjacentes()
+
+        return lista
+
+
+    def BFS_Largura(self, inicio, fim):
+
+        lista = dijkstra(self.montarLista(), inicio, fim)
+        mensagem = ('Menor custo é : ' + str(lista[0]))
+        dot = Graph(filename='.\Imagens\Grafo', engine='sfdp', format='png', strict=True,)
+        dot.attr('node', shape='circle', color='lightblue', style='filled')
+        dot.attr(bgcolor='white', label= mensagem, fontcolor='Black')
+        for i in range(len(self.__vertice)):
+            for j in range(self.__vertice[i].quantidadeDeadjacentes()):
+                dot.edge(self.__vertice[i].getVertice(), self.__vertice[i].getAdjacentes(j, 0),
+                         label=str(self.__vertice[i].getAdjacentes(j, 1)))
+
+        for i in range(len(lista[1])):
+            dot.node(lista[1][i] , color='purple')
+        for i in range(len(lista[1])-1):
+            dot.edge( lista[1][i], lista[1][i+1],color='red')
+        dot.view()
+
+
+
+grafo = Grafo()
 
 
 grafo.inserirVertice('A')
@@ -206,19 +231,17 @@ grafo.inserirVertice('L')
 grafo.inserirVertice('M')
 grafo.inserirVertice('N')
 
-grafo.inseririAresta('A','B',1)
-grafo.inseririAresta('B','C',2)
+grafo.inseririAresta('A','B',10)
+grafo.inseririAresta('B','C',20)
 grafo.inseririAresta('C','D',3)
-grafo.inseririAresta('D','E',4)
-grafo.inseririAresta('E','F',5)
-grafo.inseririAresta('F','G',6)
+grafo.inseririAresta('D','N',4)
+grafo.inseririAresta('E','J',5)
+grafo.inseririAresta('C','G',6)
 grafo.inseririAresta('G','H',7)
-grafo.inseririAresta('H','I',8)
-grafo.inseririAresta('I','J',9)
-grafo.inseririAresta('J','K',10)
-grafo.inseririAresta('K','L',11)
-grafo.inseririAresta('L','M',12)
-grafo.inseririAresta('M','N',13)
-grafo.inseririAresta('N','A',14)
+grafo.inseririAresta('H','A',8)
+grafo.inseririAresta('D','J',9)
+grafo.inseririAresta('N','H',9)
+grafo.mostrarGrafo()
 
-grafo.mostrarGrafo()'''
+grafo.BFS_Largura('A','E')
+
